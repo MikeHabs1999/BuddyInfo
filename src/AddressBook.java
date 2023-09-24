@@ -19,6 +19,10 @@ public class AddressBook {
             myBuddies.remove(aBuddy);
         }
     }
+    public void add2Buddies(BuddyInfo aBuddy, BuddyInfo a2ndBuddy) {
+        myBuddies.add(aBuddy);
+        myBuddies.add(a2ndBuddy);
+    }
 
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
