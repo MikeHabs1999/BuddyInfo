@@ -26,6 +26,5 @@ public class AddressBook {
         addressbook.addBuddy(buddy);
         addressbook.removeBuddy(buddy);
     }
-
-    // testing changes
+    // hi
 }
